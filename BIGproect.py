@@ -21,7 +21,6 @@ allNews=allNews.replace("</p></div>","")
 allNews=allNews.replace("<br/>","")
 allNews=allNews.replace("<p>","")
 allNews=allNews.replace("]","")
-allNews=allNews.replace("]","")
 allNews=allNews.replace(",","")
 
 filteredNews = allNews.split('<div class="entry">')
