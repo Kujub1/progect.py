@@ -3,7 +3,7 @@ import PyQt5
 from PyQt5.QtWidgets import*
 from bs4 import BeautifulSoup
 import requests
-import sys
+
 
 
 url = 'http://horoshee.ru/?cat=4'
