@@ -74,7 +74,7 @@ vvod = QLabel(test)
 vvod.setStyleSheet("QLabel{font-size:40px; color:purple;}")
 line1.addWidget(vvod)
 
-vvod2 = QLabel("121212")
+vvod2 = QLabel("")
 line1.addWidget(vvod2)
 
 
