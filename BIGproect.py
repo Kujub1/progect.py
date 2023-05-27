@@ -52,7 +52,7 @@ text1 = QLabel(test)
 
 print(test)
 text33 = QLabel("Нажми на кнопку и получишь результат!!")
-text33.setStyleSheet("QLabel{font-size:40px; color:green;}")
+text33.setStyleSheet("QLabel{font-size:40px; color:pink;}")
 line1.addWidget(text33)
 text1.setStyleSheet("QLabel{font-size:50px; color:green;}")
 but1 = QPushButton("Если нету интернета")
@@ -73,9 +73,6 @@ background:
 vvod = QLabel(test)
 vvod.setStyleSheet("QLabel{font-size:40px; color:purple;}")
 line1.addWidget(vvod)
-
-vvod2 = QLabel("")
-line1.addWidget(vvod2)
 
 
 def Wish():
